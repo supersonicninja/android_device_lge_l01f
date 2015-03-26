@@ -31,3 +31,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.product.locale.language=ja \
     ro.product.locale.region=JP
+
+# GPS
+PRODUCT_COPY_FILES += \
+ $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
