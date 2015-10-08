@@ -21,12 +21,3 @@ TARGET_KERNEL_CONFIG := cyanogenmod_l01f_defconfig
 TARGET_OTA_ASSERT_DEVICE := l01f,l-01f,L01F,L-01F,g2,galbi
 
 G2_DTS_TARGET := msm8974-g2-dcm
-
-#Following options are for the TWRP recovery. Delete # if you build TWRP recovery.
-#PRODUCT_COPY_FILES += device/lge/l01f/twrp.fstab:recovery/root/etc/twrp.fstab
-#RECOVERY_GRAPHICS_USE_LINELENGTH := true
-#TW_INTERNAL_STORAGE_PATH := "/data/media"
-#TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
-#RECOVERY_SDCARD_ON_DATA := true
-#TW_NO_BATT_PERCENT := true
-#DEVICE_RESOLUTION := 1080x1920
